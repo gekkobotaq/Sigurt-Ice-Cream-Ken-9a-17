@@ -46,6 +46,34 @@ nav a{
         background-attachment: fixed;
         height: 600px;
     }
+    section.product .container{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 50px;
+      }
+      
+    section.product .container .card{
+        background-color: white;
+        text-align: center;
+        padding: 5px;
+        width: 200px;
+        height: 470px;
+        margin: 15px;
+        border-radius: 20px;
+      }
+      
+    section.product .container .card img{
+        width: 100%;
+      }
+      
+    section.product .container .card a{
+        color: black;
+        padding: 5px 20px;
+        text-decoration: none;
+        box-shadow: 0px 0px 3px;
+        border-radius: 20px;
+      }
     section.contact{
         background-color: rgb(41, 57, 70);
         height: 600px;
