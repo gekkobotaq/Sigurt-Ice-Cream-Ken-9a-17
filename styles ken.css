@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+}
+header{
+    display:flex;
+    top:0;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    color:white;
+    padding:10px;
+}
+nav a{
+    padding: 10px 25px;
+    text-decoration: none;
+    color:white;
+}
+section.home{
+    background:url("gb1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+section.product{
+    background: url("gb2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+section.contact{
+    background-color: black;
+    height: 600px;
+}
+section.home{
+    height: 600px;
+    background:url("https://i.pinimg.com/474x/a5/6e/28/a56e280e136f8c749d90244a47d9dee4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 100px;
+}
+section.home div{
+    text-align: center;
+    color:black;
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+}
+section.home .welcome{
+    font-size: 30px;
+}
+section.home a{
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.about{
+    background-color: black;
+    height: 600px;
+    padding-top: 100px;
+}
+section.about div{
+    color:white;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+section.about img{
+    height: 200px;
+}
+section.product{
+    background: url("https://i.pinimg.com/474x/7f/84/0e/7f840e1ce434ddbaf8e08a4d0bbe7f0b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1200px;
+}
+section.product .container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+section.product .container .card{
+    background-color: white;
+    text-align:center;
+    padding: 5px;
+    width: 200px;
+    height: 350px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(54, 205, 225);
+    font-size: 13px;
+}
+section.product .container .card img{
+    width:80%;
+}
+section.product .container .card a{
+    color:black;
+    padding: 5px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+.checked {
+    color: orange;
+  }
+section.product .container .card a:hover{
+    background-color: white;
+    transition:0.5s;
+}
+    
