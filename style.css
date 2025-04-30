@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+    }
+header {
+    display: flex;
+    top:0;
+    width: 100%;
+    background-color:rgb(224, 154, 193); 
+    justify-content: space-between; 
+     position: fixed;
+    z-index: 1; 
+    color:white;
+    padding: 10px;
+    }
+nav a{
+        padding: 10px 25px;
+        text-decoration: none;
+        color: navy;
+        border-radius: 20px;
+    }
+    nav a:hover{
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;
+    }
+    section.home{ 
+        background: url("background home.jpg"); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-attachment: fixed;
+         height: 600px; 
+         padding-top: 70px;
+    } 
+    section.home div{
+        text-align: center;
+        color: navy;
+        margin:auto;
+        width: 70%;
+        font-size: larger;
+        padding: 20px;
+    }
+    section.home .welcome{
+        font-size: 30px;
+    }
+    section.home a{
+        color:peru;
+        padding:10px 20px;
+        text-decoration: none;
+        box-shadow: 0px 0px 3px;
+        border-radius: 20px;
+        font-size: larger;
+    }
+    section.home a:hover{
+        background-color: navy;
+        transition: 0.5s;
+    }
+        section.about{
+    background-color: rgb(218, 135, 186);
+    height: 600px;
+    padding-top:100px;
+    }
+    section.about div{
+        color: navy;
+        text-align: center;
+        margin:auto;
+        width:70%;
+        font-size: large;
+    }
+    section.about img{
+        height: 200px;
+    }
+
+    Section.product{
+        background: url("background\ produc.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 1200px;
+    }
+    section.product .container{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+    section.product .container .card{
+        background-color: rgb(190, 156, 209);
+        text-align: center;
+        padding: 5px;
+        width:200px;
+        height:470px;
+        margin: 15px;
+        border-radius: 30px;
+    }
+.card:hover{
+        animation: goyang 0.5s;
+        transition: 0.5s;
+    }
+    section.product .container .card img{
+        width:100%;
+        border-radius: 30px;
+        height: 200px;
+    }
+    section.product .container .card a{
+        color:rgb(255, 255, 255);
+        padding: 5px 20px;
+        text-decoration: none;
+        box-shadow: 0px 0px 3px;
+        border-radius: 20px;
+    }
+    section.product .container .card a:hover{
+    background-color: navy;
+    transition: 0.5s;
+    }
+    section.contact{
+        background-color: rgb(128, 72, 89);
+        height: 600px;
+    }
+    section.contact .card{
+        margin: auto;
+        color: rgb(242, 243, 248);
+        text-align: center;
+        padding-top: 100px;
+        width: 400px;
+        font-size: large;
+    }
+    section.contact .card img{
+        width: 300px;
+    }
+    footer{
+        background-color: beige;
+        height:50px;
+    }
+    footer .medsos{
+     text-align: center;
+     padding-top: 10px;
+    }
+    footer .medsos a{
+        color:rgb(0, 0, 0);
+        font-size: 20px;
+        padding: 5px 20px;
+    }
+    @keyframes goyang{
+        0%{
+            transform: rotate(0deg);
+        }
+        25%{
+            transform: rotate(3deg);
+        }
+        50%{
+            transform: rotate(-3deg);
+        }
+        75%{
+            transform: rotate(-1eg);
+        }
+        100%{
+            transform: rotate(0deg);
+        }
+    }
